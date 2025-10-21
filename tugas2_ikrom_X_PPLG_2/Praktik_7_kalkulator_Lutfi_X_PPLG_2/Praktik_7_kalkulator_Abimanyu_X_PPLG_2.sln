@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktik_7_kalkulator_Abimanyu_X_PPLG_2", "Praktik_7_kalkulator_Abimanyu_X_PPLG_2\Praktik_7_kalkulator_Abimanyu_X_PPLG_2.csproj", "{9679C3DD-5B0C-48D8-A661-5B1413951C76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9679C3DD-5B0C-48D8-A661-5B1413951C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9679C3DD-5B0C-48D8-A661-5B1413951C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9679C3DD-5B0C-48D8-A661-5B1413951C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9679C3DD-5B0C-48D8-A661-5B1413951C76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5832A260-BC52-4344-84DF-81295D06B6A6}
+	EndGlobalSection
+EndGlobal
