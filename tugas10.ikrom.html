@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: maroon;
+        }
+
+        header {
+            background:#333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+       
+        nav {
+            background:forestgreen;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .box {
+            width: 100%;
+            height: 100px; 
+            border: 2px solid #333;
+            padding: 10px;
+            margin-bottom: 20px;
+            background: #fafafa;
+        }
+
+        .visible { overflow: visible; margin-bottom: 100px; } 
+        .hidden  { overflow: hidden; }
+        .scroll  { overflow: scroll; }
+        .auto    { overflow: auto; }
+
+        h2 { color: #2c3e50; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Portal Inovasi</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>Artikel Utama: Eksplorasi Teknologi Modern</h2>
+        <div class="box visible">
+            Teknologi informasi berkembang dengan sangat pesat di era digital saat ini. Penggunaan display <strong>overflow: visible</strong> memungkinkan seluruh teks keluar dari batas kotak jika isinya melebihi kapasitas ruang yang disediakan. Hal ini sangat penting dipahami oleh para pengembang web pemula agar mereka tahu bagaimana elemen berinteraksi dengan layout di sekitarnya. Dengan memahami konsep desain responsif, kita bisa menciptakan pengalaman pengguna yang jauh lebih baik dan efisien. Jangan biarkan teks anda terpotong secara tidak sengaja kecuali anda memang merencanakannya untuk estetika tertentu.
+        </div>
+
+        <h2>Produk 1: Kursi Ergonomis Pro</h2>
+        <div class="box hidden">
+            Produk pertama kami adalah Kursi Ergonomis Pro yang dirancang khusus untuk meningkatkan produktivitas kerja anda di kantor maupun di rumah. Menggunakan display <strong>overflow: hidden</strong>, teks yang melebihi batas kotak setinggi 100 pixel ini akan terpotong secara otomatis dan tidak akan memengaruhi elemen lain di bawahnya. Desain ini sangat minimalis dan memberikan kesan rapi pada layout website. Material yang digunakan sangat berkualitas tinggi, mulai dari busa memori hingga rangka baja yang kokoh untuk penggunaan jangka panjang yang sangat awet bagi tulang belakang anda.
+        </div>
+
+        <h2>Produk 2: Monitor Ultra-Wide 4K</h2>
+        <div class="box scroll">
+            Produk kedua adalah Monitor Ultra-Wide 4K dengan akurasi warna yang sangat tinggi untuk kebutuhan profesional desain grafis dan video editing. Dengan menggunakan <strong>overflow: scroll</strong>, bar gulir akan selalu muncul baik teksnya penuh atau tidak. Ini memberikan kontrol penuh kepada pengguna untuk membaca seluruh deskripsi produk yang panjang tanpa harus merusak tatanan visual halaman web secara keseluruhan. Nikmati resolusi tajam yang memanjakan mata serta fitur perlindungan radiasi yang membuat anda betah bekerja berjam-jam di depan layar komputer kesayangan anda setiap harinya.
+        </div>
+
+        <h2>Produk 3: Keyboard Mekanik Silent</h2>
+        <div class="box auto">
+            Produk ketiga kami adalah Keyboard Mekanik Silent yang memberikan sensasi mengetik luar biasa tanpa suara berisik yang mengganggu rekan kerja di sekitar anda. Menggunakan display <strong>overflow: auto</strong>, bar gulir hanya akan muncul jika teks di dalamnya memang melebihi kapasitas kotak. Jika teksnya pendek, maka tampilan akan tetap bersih tanpa scrollbar. Ini adalah solusi paling cerdas untuk desain web yang dinamis. Switch yang digunakan memiliki daya tahan hingga lima puluh juta klik, menjadikannya investasi terbaik untuk para penulis dan programmer yang membutuhkan keandalan tinggi.
+        </div>
+    </article>
+    
+</body>
+</html>
