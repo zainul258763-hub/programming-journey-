@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Z-Index Gambar</title>
+<style>
+  .container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+
+  .img {
+    position: absolute;
+    width: 200px;
+  }
+
+  .img1 {
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+  }
+
+  .img2 {
+    top: 60px;
+    left: 60px;
+    z-index: 2; 
+  }
+
+  .img3 {
+    top: 100px;
+    left: 100px;
+    z-index: 1; 
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <img src="epep1.jpg" class="img img1">
+    <img src="epep2.jpg" class="img img2">
+    <img src="epep3.jpg" class="img img3">
+</div>
+
+</body>
+</html>
